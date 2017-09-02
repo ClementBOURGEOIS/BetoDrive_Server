@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<div class="well">
+	<label>
+		nom ingredient:
+		<input ng-model="ingredientNom"></input>
+	</label>
+	<label>
+		stock ingredient:
+		<input ng-model="ingredientStock"></input>
+	</label>
+	<label>type ingredient:
+		<select ng-model="ingredientTypeSelected" ng-options="ingredientType.name for ingredientType in ingredientTypes">
+		</select>
+	</label>
+	<button ng-click="createIngredient">click me</button>
+</div>
+
+

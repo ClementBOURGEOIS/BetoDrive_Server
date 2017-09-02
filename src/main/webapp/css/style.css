@@ -1,0 +1,14 @@
+.buttonContainer{
+    position : absolute;
+    top : 10%;
+    left : 2%;
+    z-index : 99;
+}
+
+.colorLabel{
+	color: whitesmoke !important;
+}
+
+.mb05{
+	margin-bottom: 0.5%;
+}
