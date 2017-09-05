@@ -141,6 +141,7 @@
 	</dependencies>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<dependency.locations.enabled>false</dependency.locations.enabled>
 	</properties>
 	<name>BetoDrive</name>
 </project>

@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package test.java.betodrive.db;
+package test.java.main.betodrive.db;
 
-import betodrive.db.IngredientPersist;
 import javax.ws.rs.core.Response;
+import main.betodrive.db.IngredientPersist;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
@@ -16,12 +16,6 @@ import org.junit.Test;
  */
 public class TestIngredientPersist {
 
-	public TestIngredientPersist() {
-	}
-
-	/**
-	 * Test of createIngredient method, of class IngredientPersist.
-	 */
 	@Test
 	public void testCreateIngredient() {
 		System.out.println("createIngredient");

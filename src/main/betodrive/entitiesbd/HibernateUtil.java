@@ -15,7 +15,7 @@ public class HibernateUtil {
 			String basePath = new File("").getAbsolutePath();
 			System.out.println(basePath);
 
-			String path = new File("C:\\Users\\Clément\\Documents\\BetoDrive_Server\\src\\main\\resources\\hibernate.cgf.xml")
+			String path = new File("C:\\Users\\Clément\\Documents\\GitHub\\BetoDrive_Server\\src\\main\\resources\\hibernate.cgf.xml")
 					.getAbsolutePath();
 			System.out.println(path);
 			return new AnnotationConfiguration().configure(new File(path)).buildSessionFactory();
